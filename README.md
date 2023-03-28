@@ -1,1 +1,3 @@
 # testpdoc
+
+Test of pdoc
