@@ -1,9 +1,18 @@
 site_name: Test site
+site_description: Some additional info
 site_url: https://tonyjurg.github.io/testpdoc
-repo_name: 'TF book'
-repo_url: https://github.com/tonyjurg/testpdoc
+site_author: Tony Jurg
 
-theme: windmill
+extra:
+   repo_name: 'TF book'
+   repo_url: https://github.com/tonyjurg/testpdoc
+
+
+theme: 
+  name: material
+  logo: 'images/test.png'
+  feature:
+    tabs: false
 
 markdown_extensions:
   - toc:
@@ -15,4 +24,14 @@ extra:
 nav:
   - Home: index.md
   - About: about.md
+
+---
+theme:
+  name: material
+  logo: 'images/etcbc-round-small.png'
+  feature:
+    tabs: false
+repo_url: 'https://github.com/etcbc/bhsa'
+
+strict: false
 
