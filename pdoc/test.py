@@ -4,3 +4,4 @@
 ...
 >>> test.__doc__
 'This is a docstring.'
+
